@@ -1,37 +1,35 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Eventually', // <title>
-  manifestName: 'Eventually',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'PublicGood Foundation', // 
+  manifestName: 'PublicGood Foundation',
+  manifestShortName: 'PGF', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-eventually/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/`, 
+
   // social
-  heading: 'Eventually',
+  heading: 'PublicGood Foundation',
   subHeading:
-    "A simple template for telling the world when you'll launch your next big thing.",
+    "... enabling causes and accelerating startups delivering public good.",
   socialLinks: [
+    {
+      icon: 'fa-hands-helping',
+      name: 'VolunteerMatch',
+      url: 'https://www.volunteermatch.org/search/org1187560.jsp',
+    },
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/publicgood',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
-    },
-    {
-      icon: 'fa-envelope-o',
-      name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      icon: 'fa-money-bill-wave',
+      name: 'GoFundMe',
+      url: 'https://github.com/publicgood',
     },
   ],
 };
+
+
