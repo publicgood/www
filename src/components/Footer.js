@@ -16,6 +16,7 @@ export default function Footer() {
           );
         })}
       </ul>
+      <br></br>
       <ul className="copyright">
         <li>&copy; Eventually.</li>
         <li>
