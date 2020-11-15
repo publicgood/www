@@ -19,16 +19,16 @@ module.exports = {
       name: 'VolunteerMatch',
       url: 'https://www.volunteermatch.org/search/org1187560.jsp',
     },
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/publicgood',
-    },
-    {
-      icon: 'fa-money-bill-wave',
-      name: 'GoFundMe',
-      url: 'https://github.com/publicgood',
-    },
+    // {
+    //   icon: 'fa-github',
+    //   name: 'Github',
+    //   url: 'https://github.com/publicgood',
+    // },
+    // {
+    //   icon: 'fa-money-bill-wave',
+    //   name: 'GoFundMe',
+    //   url: 'https://github.com/publicgood',
+    // },
   ],
 };
 
