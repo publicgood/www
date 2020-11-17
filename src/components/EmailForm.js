@@ -35,8 +35,8 @@ export class EmailForm extends Component {
     const { message } = this.state;
     return (
       <form id="signup-form" onSubmit={this.onSubmit} method="POST" action="https://formspree.io/f/xgepzyje">
-        <input type="text" name="_replyto" placeholder="Stay tunned with your email" />
-        {/* <input type="text" name="_gotcha" style="display:none" /> */}
+        <input type="text" name="_replyto" placeholder="stay tunned via email" />
+        <input type="text" name="_gotcha" style={{display: "none"}} />
         <input type="submit" value="Sign Up" />
         <span className={`${message ? 'visible success' : ''} message`}>
           {message}

@@ -34,7 +34,7 @@ keywords: [
     },
     {
       icon: 'fa-github',
-      name: 'Github',
+      name: 'GitHub',
       url: 'https://github.com/publicgood',
     },
     // {
